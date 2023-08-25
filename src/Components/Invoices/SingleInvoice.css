@@ -1,0 +1,139 @@
+.sinvoice-container {
+    text-align: center;
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    color: #6e6e6e;
+}
+
+.sinvoice-list-container {
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.3125rem 0.3125rem 0 rgba(82, 63, 105, .05);
+    margin: 2rem;
+    width: calc(100% - 40px);
+    text-align: left;
+}
+
+.sinvoice-list-page {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.customer-details {
+    padding-left: 5rem;
+}
+
+.input-edit-number {
+    background: #fff;
+    border: 0.0625rem solid #ccc7c7;
+    border-radius: 0.8rem;
+    color: #6e6e6e;
+    height: 2rem;
+    padding: 0.5rem;
+    width: 4rem;
+
+}
+
+.add-item {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.item-details-cont {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-single:nth-child(3) {
+    align-self: flex-end;
+
+}
+
+.Address {
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sinvoice-list-page span {
+    font-weight: 700;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+p {
+    padding: 0.2rem;
+}
+
+.titleSingle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titleSingle h1 {
+    font-weight: 700;
+}
+
+.icon-invoices-title {
+    color: #377C95;
+    font-size: 40px;
+    cursor: pointer;
+}
+.icon-invoices-title:hover{
+    color: #DF865D;
+}
+.back-cont {
+    color: #377C95;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-invoices {
+    color: #377C95;
+    font-size: 40px;
+    cursor: pointer;
+}
+.back-cont:hover {
+    color: #DF865D !important;
+}
+
+@media screen and (max-width:800px) {
+    .sinvoice-list-page {
+        padding: 1rem;
+    }
+
+    .customer-details {
+        padding-left: 1rem;
+    }
+
+    .item-details-cont {
+        padding: 1rem;
+    }
+
+    .add-item {
+        gap: 1rem;
+    }
+
+    .sinvoice-container .input-edit {
+        width: 40%
+    }
+
+    .sinvoice-container {
+        display: block;
+    }
+
+    .sinvoice-list-container {
+        margin: 0rem;
+        width: 100%;
+
+    }
+}

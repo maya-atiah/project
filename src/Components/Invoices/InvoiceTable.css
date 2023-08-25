@@ -1,0 +1,83 @@
+table {
+    border-collapse: collapse;
+    width: 90%;
+    padding-top: 4rem;
+    margin: 1rem;
+}
+
+th {
+    font-weight: 800;
+}
+
+th,
+td {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid#377C95;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #fcfefb;
+}
+
+.table-container {
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    max-width: 100%;
+    /* Ensure the table fits within the container */
+}
+
+
+.icon-invoice {
+    color: #377C95;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.icon-invoice:hover {
+    color: #DF865D;
+
+}
+
+.input-edit:focus {
+    border: 0.0625rem solid #DF865D !important;
+}
+
+.input-edit {
+    background: #fff;
+    border: 0.0625rem solid #ccc7c7;
+    border-radius: 0.8rem;
+    color: #6e6e6e;
+    height: 2rem;
+    padding: 0.5rem
+}
+
+.add-item h2 {
+    font-weight: 600;
+}
+
+.to-single {
+    cursor: pointer;
+}
+
+.next-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 32%;
+    right: 100px;
+    color: #DF865D;
+    cursor: pointer;
+}
+
+.next-icon:hover {
+    color: #377C95;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .table-container {
+        overflow-x: scroll;
+    }
+}
